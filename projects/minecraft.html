@@ -27,13 +27,78 @@
 	
 </ul></nav>
 
-	<center><h1>Minecraft</h1></center>
-  <center><p>The sculpture I made is a yin and yang symbol. The yin and yang symbol shows a balance between two opposites with a portion of the opposite element in each section. The yin, the dark swirl, is associated with shadows, femininity, and the trough of a wave. Culturally, the yin and yang symbol comes from Taoism/Daoism which is a Chinese religion and philosophy. The yang, the light swirl, represents brightness, passion and growth. I chose to create this because it has had a great significance in my life. Balance is extremely important to me and this is why I chose the yin and yang symbol.</p></center>
-</div>
-
+	<center><h1>Self Portrait</h1></center>
+  <center><p>I created a portrait of myself while only using the drawing tools in Processing. I included the code that I used to make it happen. Check it out down below!</p></center>
+	
 <center><div class="container">
-  <img src="images/yinyangmc.jpg" class="img-thumbnail" alt="yin and tang minecraft" width="608" height="372"> 
+  <img src="images/selfportrait.jpg" class="img-thumbnail" alt="yin and tang minecraft" width="608" height="372"> 
 </div></center>
+	
+<p>function setup() {
+createCanvas(600, 600);
+background(149,200,216);
+
+}
+
+function draw() {
+strokeWeight(0);
+fill(92, 64, 51);
+ellipse(300, 280, 450, 575); // top of hair
+
+rect(100, 150, 400, 600); // hair
+
+strokeWeight(0);
+fill (241,194,125); // skin tone
+rect(255, 420, 100, 200); // neck
+strokeWeight(0);
+ellipse(300, 280, 290, 370); // head
+
+strokeWeight(0);
+fill(92, 64, 51);
+rect(150, 95, 300, 100); // hair
+
+fill (241,194,125);
+rect(300, 50, 2, 150); // hair line
+
+strokeWeight(2);
+fill(192);
+ellipse(305, 700, 450, 350); // shirt
+
+strokeWeight(2);
+fill (255);
+ellipse(240, 280,50, 30); // left eye
+strokeWeight(2);
+fill (83, 61, 50);
+ellipse(240, 280, 30, 30); // pupil
+fill(0);
+ellipse(240, 280, 15, 20)
+
+strokeWeight(2);
+fill (255);
+ellipse(360, 280, 50, 30); // right eye
+strokeWeight(2);
+fill (83, 61, 50);
+ellipse(360, 280, 30, 30); // pupil
+fill (0);
+ellipse(360, 280, 15, 20);
+
+rect(210, 250, 50, 3); // eyebrows
+rect(340, 250, 50, 3); // eyebrows
+rect(295, 300, 1, 35); // nose
+rect(300, 330, 5, 0); // nostril
+rect(300, 390, 40, 5); // mouth
+
+strokeWeight(0);
+fill(0, 0, 255, 20);
+rect(310, 260, 100, 60)
+rect(190, 260, 100, 60)
+rect(287, 280, 25, 5);
+rect(155, 280, 35, 5);
+rect(410, 280, 35, 5);
+
+
+}</p></center>
+</div>
 
 </body>
 </html> 
